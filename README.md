@@ -16,6 +16,7 @@ and their controllers become Player 2, 3 and 4 on your game.
 ### **[⬇ Download Universal Couch for Windows](https://github.com/SzebaHUN/universal-couch/releases/tag/v0.5.8)**
 
 Under **Assets**, download **`Universal Couch_0.5.8_x64-setup.exe`**, run it, and follow the installer.
+(Your browser saves it as `Universal.Couch_0.5.8_x64-setup.exe`. GitHub replaces the space with a dot.)
 
 > [!NOTE]
 > GitHub also lists **"Source code (zip)"** and **"Source code (tar.gz)"** on every release. Those archives contain only this page's documentation. They are **not** the app. You only need the `x64-setup.exe` installer.
