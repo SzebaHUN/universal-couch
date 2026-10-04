@@ -31,12 +31,12 @@ Everyone who plays installs Universal Couch: the host and every friend who joins
     <td width="50%"><img src="docs/screenshots/08-game-stream.png" alt="Guest view of a split-screen game"><br><sub>Guest view of a split-screen game, with Fit / Fill and Whole picture / My screen</sub></td>
   </tr>
   <tr>
-    <td width="50%"><img src="docs/screenshots/09-fullscreen-my-screen.png" alt="Fullscreen My screen view"><br><sub>Fullscreen <b>My screen</b>: Player 2's quarter of a 4-player split fills the display</sub></td>
+    <td width="50%"><img src="docs/screenshots/04-controllers.png" alt="Player/controller assignment"><br><sub>Player/controller assignment</sub></td>
     <td width="50%"><img src="docs/screenshots/01-home.png" alt="Universal Couch home screen"><br><sub>Universal Couch home screen</sub></td>
   </tr>
 </table>
 
-More screenshots: [host setup](docs/screenshots/02-host-room.png) · [room ready](docs/screenshots/03-session.png) · [controllers](docs/screenshots/04-controllers.png) · [settings](docs/screenshots/05-settings.png) · [join](docs/screenshots/06-join.png). Game images and private details are blurred.
+More screenshots: [host setup](docs/screenshots/02-host-room.png) · [room ready](docs/screenshots/03-session.png) · [settings](docs/screenshots/05-settings.png) · [join](docs/screenshots/06-join.png). Game images and private details are blurred.
 
 ## What Universal Couch Does
 
