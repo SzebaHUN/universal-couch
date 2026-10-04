@@ -1,0 +1,60 @@
+name: Bug report
+description: Something didn't work in Universal Couch
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing Universal Couch!
+        **Never post ROMs, room passwords or private invite links here.**
+  - type: input
+    id: version
+    attributes:
+      label: Universal Couch version
+      placeholder: e.g. 0.5.8
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Were you the host or the guest?
+      options: [Host, Guest, Both / testing alone]
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Windows version (host and guest if known)
+      placeholder: e.g. Host Windows 11, guest Windows 10
+  - type: input
+    id: controller
+    attributes:
+      label: Controller type
+      placeholder: e.g. Xbox controller, 8BitDo, keyboard
+  - type: input
+    id: emulator
+    attributes:
+      label: Project64 version
+      placeholder: Set up by Universal Couch / my own copy (version?)
+  - type: input
+    id: game
+    attributes:
+      label: Game
+  - type: dropdown
+    id: connected
+    attributes:
+      label: Did the host and guest connect?
+      options: ["Yes", "No", "Connected, then dropped", "Not applicable"]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What did you expect, and what happened?
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots / log (optional)
+      description: The log is at %LOCALAPPDATA%\UniversalCouch\Logs\uc64.log. Attach it if it helps. Remove anything you consider private first.
