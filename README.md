@@ -27,16 +27,35 @@ Everyone who plays installs Universal Couch: the host and every friend who joins
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/screenshots/01-home.png" alt="Universal Couch home screen"><br><sub>Universal Couch home screen</sub></td>
-    <td width="50%"><img src="docs/screenshots/03-session.png" alt="Hosting a remote couch co-op session"><br><sub>Hosting a remote couch co-op session</sub></td>
+    <td width="50%"><img src="docs/screenshots/07-four-player-room.png" alt="A full four-player room"><br><sub>A full room: host + 3 remote players</sub></td>
+    <td width="50%"><img src="docs/screenshots/08-game-stream.png" alt="Guest view of a split-screen game"><br><sub>Guest view of a split-screen game, with Fit / Fill and Whole picture / My screen</sub></td>
   </tr>
   <tr>
-    <td width="50%"><img src="docs/screenshots/04-controllers.png" alt="Player/controller assignment"><br><sub>Player/controller assignment</sub></td>
-    <td width="50%"><img src="docs/screenshots/06-join.png" alt="Joining a friend's room with a room code"><br><sub>Joining a friend's room with a room code</sub></td>
+    <td width="50%"><img src="docs/screenshots/09-fullscreen-my-screen.png" alt="Fullscreen My screen view"><br><sub>Fullscreen <b>My screen</b>: Player 2's quarter of a 4-player split fills the display</sub></td>
+    <td width="50%"><img src="docs/screenshots/01-home.png" alt="Universal Couch home screen"><br><sub>Universal Couch home screen</sub></td>
   </tr>
 </table>
 
-More: [host setup](docs/screenshots/02-host-room.png) · [settings](docs/screenshots/05-settings.png). Private details are blurred in these screenshots.
+More screenshots: [host setup](docs/screenshots/02-host-room.png) · [room ready](docs/screenshots/03-session.png) · [controllers](docs/screenshots/04-controllers.png) · [settings](docs/screenshots/05-settings.png) · [join](docs/screenshots/06-join.png). Game images and private details are blurred.
+
+## What Universal Couch Does
+
+- **Host from one Windows PC.** Your game runs in Project64 on your PC, and friends join from theirs over the internet.
+- **Up to 4 players.** The host is Player 1, and up to 3 friends take Player 2–4. Extra people can join as **watchers**.
+- **Join with a room code.** Rooms use a code and an optional password. There's no port forwarding and no IP addresses to type.
+- **Guests need no game.** Friends don't need the ROM, Project64 or your save. They see and hear the game and play with their own controller.
+- **Controller-aware seats.** Each seat is a fixed controller port (P1–P4). The host decides who plays and who watches, and can remove players. Each player can remap buttons, and the mapping is saved per controller.
+- **Fullscreen play.** Guests can watch fullscreen (Esc or double-click to leave).
+- **Made for split-screen games.** With **My screen**, each player zooms into their own part of a split-screen game, even in fullscreen. **Whole picture** shows everything. Players can also hold **Z + START + R** for 2 seconds to switch.
+- **Fit or Fill.** Choose how the picture fits your monitor: **Fit** shows all of it, **Fill** fills the screen.
+- **Stream quality.** Choose **Responsive**, **Balanced** or **Sharp**, or leave it on **Auto**, which picks a setting for your PC based on its hardware video encoders.
+- **Pause / Restart / Change game** without anyone leaving the room. Universal Couch offers to save first, and save states are kept per game.
+- **Automatic Project64 setup.** One click downloads the official Project64 and applies tested settings for known games. Supported multiplayer games show as **UC verified** or **UC curated**.
+- **Test ROM locally** to check a game and your controller before inviting anyone.
+- **Reconnects automatically** if a guest's connection drops.
+- **Public or private rooms.** Rooms are private by default. Public rooms appear in **Browse Rooms**.
+- **Optional Discord connection** for friends, one-click invites and status.
+- **8 languages:** both the app and the installer are fully available in English, Español, Português (Brasil), Français, Deutsch, Italiano, Magyar and Polski.
 
 ## What is Universal Couch?
 
@@ -109,7 +128,8 @@ Confirmed for v0.5.8:
 | Emulator | **Project64**, set up by Universal Couch or chosen by the host |
 | Games | Nintendo 64 games that support local multiplayer |
 | Players | Host + up to 3 friends (4 seats), plus watchers |
-| App & installer languages | English, Español, Português (Brasil), Français, Deutsch, Italiano, Magyar, Polski |
+| App languages | English, Español, Português (Brasil), Français, Deutsch, Italiano, Magyar, Polski (all fully translated) |
+| Installer languages | The same 8 languages |
 
 Project64 is currently the only supported emulator.
 
