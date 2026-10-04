@@ -23,6 +23,21 @@ Under **Assets**, download **`Universal Couch_0.5.8_x64-setup.exe`**, run it, an
 
 Everyone who plays installs Universal Couch: the host and every friend who joins. Windows 10/11 (x64) is required.
 
+## See It in Action
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/01-home.png" alt="Universal Couch home screen"><br><sub>Universal Couch home screen</sub></td>
+    <td width="50%"><img src="docs/screenshots/03-session.png" alt="Hosting a remote couch co-op session"><br><sub>Hosting a remote couch co-op session</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/04-controllers.png" alt="Player/controller assignment"><br><sub>Player/controller assignment</sub></td>
+    <td width="50%"><img src="docs/screenshots/06-join.png" alt="Joining a friend's room with a room code"><br><sub>Joining a friend's room with a room code</sub></td>
+  </tr>
+</table>
+
+More: [host setup](docs/screenshots/02-host-room.png) · [settings](docs/screenshots/05-settings.png). Private details are blurred in these screenshots.
+
 ## What is Universal Couch?
 
 Universal Couch (shown in the app as **Universal Couch 64**) brings the "everyone on one sofa" experience to friends who are far away.
